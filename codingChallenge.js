@@ -11,7 +11,7 @@ const output = [];
 // for loop to log out nums from 1 - 100
   // checks if the numbers are divisible by 3 or 5 to replace with strings of different names instead of the nums.
   // then, returning the output numbers. 
-for(let i = 1; i <= 100; i++){
+for(let i = 1; i <= num; i++){
   if(i % 3 === 0 && i % 5 === 0){
     output.push("CLXDTC")
   }else if(i % 3 === 0){
